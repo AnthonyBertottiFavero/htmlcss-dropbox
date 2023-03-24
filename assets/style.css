@@ -7,3 +7,77 @@ padding: 0;
 html {
     font-family: 'Open Sans', sans-serif;
 }
+
+/* general rules */
+.container-samll {
+    max-width: 1040px;
+    padding-inline: 20px;
+    margin-inline: auto;
+}
+
+.container-big {
+    max-width: 1240px;
+    padding-inline: 20px;
+    margin-inline: auto;
+}
+
+.btn {
+    padding: 0.4em 0.7em;
+    white-space: nowrap;
+    display: inline-block;
+}
+
+.btn-first {
+    background-color: #0160FF;
+    color: white;
+}
+
+
+/* header-menu */
+nav {
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    white-space: nowrap;
+}
+
+nav .top-menu {
+    display: flex;
+    height: 100%;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav .top-menu > li {
+    display: flex;
+}
+
+nav .top-menu a {
+    display: flex;
+    align-items: center;
+    padding-inline: 1em;
+    text-decoration: none;
+    color: black;
+}
+
+nav .slot {
+    flex-grow: 1;
+}
+
+nav .logo img {
+    height: 35%;
+}
+
+nav .special-button {
+    align-self: center;
+    padding-right: 1em;
+}
+
+nav .top-menu a:hover {
+    border-bottom: 1px solid black;
+}
