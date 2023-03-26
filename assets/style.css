@@ -315,3 +315,19 @@ header .text-second {
 }
 
 
+/* section number-team */
+.number-team {
+    padding-top: 105px;
+    padding-bottom: 150px;
+}
+
+.number-team h2 {
+    font-size: 2.5rem;
+    padding-bottom: 60px;
+}
+
+.number-team a {
+    color: #0160FF;
+}
+
+
