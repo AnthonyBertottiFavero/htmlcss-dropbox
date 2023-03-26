@@ -279,3 +279,39 @@ header .text-second {
 .partners .text p {
     padding: 20px 0px 30px;
 }
+
+
+/* section operation */
+.operation {
+	padding-top: 80px;
+	padding-bottom: 105px;
+}
+
+.operation .container-small {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 3rem;
+}
+
+.operation h2 {
+	flex: 0 0 100%;
+}
+
+.operation .card {
+	flex: 0 0 calc((100% - 2 * 3rem) / 3);
+}
+
+.operation img {
+	width: 100%;
+}
+
+.operation h2 {
+    font-size: 2.5rem;
+}
+
+.operation .card h3 {
+    line-height: 1.7em;
+    padding-bottom: 25px;
+}
+
+
