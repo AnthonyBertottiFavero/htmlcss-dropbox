@@ -37,6 +37,11 @@ html {
     color: white;
 }
 
+.btn-second {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
 
 /* header-menu */
 nav {
@@ -246,4 +251,31 @@ header .text-second {
 
 .subscriptions .card-full h3 {
    font-size: 1.7rem;
+}
+
+
+/* section partners */
+.partners .container-small {
+    display: flex;
+    gap: 2rem;
+    padding: 75px 0px 80px;
+}
+
+.partners .container-small img {
+    min-width: 0;
+    flex: 0 0 60%;
+    padding-inline-end: 20px;
+}
+
+.partners .text {
+    flex: 0 0 calc(40% - 2rem);
+    padding-top: 55px;
+}
+
+.partners .text h2 {
+    line-height: 1.5em;
+}
+
+.partners .text p {
+    padding: 20px 0px 30px;
 }
