@@ -28,6 +28,8 @@ html {
     padding: 0.5em 0.8em;
     white-space: nowrap;
     text-decoration: none;
+    cursor: pointer;
+    text-align: center;
 }
 
 .btn-first {
@@ -124,4 +126,124 @@ header .text-second {
     font-size: 45px;
     color: black;
     font-weight: bold;
+}
+
+
+/* section subscriptions-radios */
+.subscriptions .radios {
+    display: flex;
+    margin-bottom: 45px;
+}
+
+.subscriptions .radios .choose-first {
+    padding-right: 3rem;
+}
+
+
+/* section subscriptions */
+.subscriptions {
+    padding: 160px 0px 75px; 
+}
+
+.subscriptions .cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.subscriptions .card {
+    flex: 0 0 calc((100% - 50px * 2) / 3);
+    border: 1px solid #DCDCDE;
+}
+
+.subscriptions .card-full { 
+    flex: 0 0 100%;
+}
+
+.subscriptions .card .heading {
+    border-bottom: 1px solid #DCDCDE;
+    text-align: center;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+.subscriptions .card .contents {
+    padding-inline: 1.5rem;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+}
+
+.subscriptions ul {
+    list-style: none;
+}
+
+.subscriptions .card .btn { 
+    display: block; 
+}
+
+.subscriptions .card .ohter::after {
+   content: '';
+   display: block;
+   width: 30%;
+   border-bottom: 1px solid #DCDCDE;
+   padding-top: 2rem;
+   margin-bottom: 3rem;
+}
+
+.subscriptions .card-full .contents {
+    display: flex;
+    justify-content: space-between;
+}
+
+.subscriptions .card .text {
+    flex: 0 0 60%;
+}
+
+.subscriptions .card .action {
+    flex: 0 0 20%;
+}
+
+.subscriptions h2 {
+    font-size: 2.5em;
+    font-weight: 600;
+    padding-bottom: 60px;
+}
+
+.subscriptions .contents h3 {
+    padding-bottom: 20px;
+}
+
+.subscriptions .contents .price {
+    font-weight: 700;
+}
+
+.subscriptions .contents .month {
+    padding-top: 15px;
+    padding-bottom: 50px;
+    color: #E5E5E7;
+}
+
+.subscriptions .contents li {
+    padding-bottom: 20px;
+}
+
+.subscriptions .contents .last {
+    padding-bottom: 50px;
+}
+
+.subscriptions .contents .ohter {
+    padding-top: 35px;
+}
+
+.subscriptions h4 {
+    padding-bottom: 2rem;
+}
+
+.subscriptions .contents .ohter a,
+.subscriptions .contents .checks i {
+    color: #0160FF;
+}
+
+.subscriptions .card-full h3 {
+   font-size: 1.7rem;
 }
