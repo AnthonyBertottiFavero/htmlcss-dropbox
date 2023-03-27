@@ -449,3 +449,38 @@ header .text-second {
 
 
 /* section faq */
+.faq {
+    padding: 155px 0px 150px;
+}
+
+.faq .container-small h2 {
+    font-size: 2.5rem;
+    padding-bottom: 60px;
+}
+
+.faq .container-small p::before {
+    content: '';
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid #D9D9DB;
+    padding-top: 2.5rem;
+    margin-bottom: 2.5rem;
+ }
+
+ .faq .container-small .last-faq::after {
+    content: '';
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid #9F9F9F;
+    padding-top: 2.5rem;
+    margin-bottom: 2.5rem;
+ }
+
+
+ .faq .container-small p {
+    font-weight: bold;
+ }
+
+ .faq .container-small i {
+    padding-inline-start: 280px;
+ }
